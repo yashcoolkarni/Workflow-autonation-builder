@@ -64,15 +64,6 @@ yarn start
 
 ---
 
-## 🧪 Running Tests
-
-Run unit tests using **Jest**:
-```bash
-npm test
-```
-
----
-
 ## 🚀 Future Enhancements
 
 🔹 **Workflow Execution Engine**: Simulate or execute workflows with a backend engine.  
