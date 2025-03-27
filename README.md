@@ -10,12 +10,14 @@ A drag-and-drop workflow automation tool using React Flow, React Hook Form, and 
 - Undo/Redo actions for quick modifications.
 - Import/Export workflow JSON files.
 
-## Installation
+## Repo Cloning
 
 Clone the repository:
 ```bash
 git clone https://github.com/YOUR_USERNAME/workflow-automation-builder.git
 cd workflow-automation-builder
+
+## Installation
 
 ### `npm install`
 
