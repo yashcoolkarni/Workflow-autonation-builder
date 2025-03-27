@@ -1,87 +1,100 @@
 # Workflow Automation Builder
 
-A drag-and-drop workflow automation tool using React Flow, React Hook Form, and React Table.
+A **drag-and-drop workflow automation tool** using **React Flow, React Hook Form, and React Table**.
 
-## Features
-- Drag and drop node types (Task, Condition, Notification) onto the canvas.
-- Connect nodes visually to define workflow logic.
-- Edit node properties via a form-based configuration panel.
-- View all nodes in a tabular summary with inline editing.
-- Undo/Redo actions for quick modifications.
-- Import/Export workflow JSON files.
+## 🚀 Features
 
-## Repo Cloning
+Drag and drop node types (**Task, Condition, Notification**) onto the canvas.  
+Connect nodes visually to define workflow logic.  
+Edit node properties via a form-based configuration panel.  
+View all nodes in a tabular summary with **inline editing**.  
+Undo/Redo actions for quick modifications.  
+Import/Export workflow **JSON** files.  
 
-Clone the repository:
+---
+
+## 📌 Installation
+
+### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/workflow-automation-builder.git
+git clone https://github.com/yashcoolkarni/workflow-automation-builder.git
 cd workflow-automation-builder
+```
 
-## Installation
+### 2️⃣ **Install Dependencies**
+Using **npm**:
+```bash
+npm install
+```
+Or using **Yarn**:
+```bash
+yarn install
+```
 
-### `npm install`
+### 3️⃣ **Run the Development Server**
+Using **npm**:
+```bash
+npm start
+```
+Or using **Yarn**:
+```bash
+yarn start
+```
+🚀 The app should now be running at **http://localhost:3000**
 
-Install node dependancy
+---
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 Usage Guide
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🏗 **Create a Workflow**
+1️⃣ Drag and drop node types (**Task, Condition, Notification**) from the sidebar onto the canvas.  
+2️⃣ Connect nodes by dragging between connection handles.  
 
-### `npm test`
+### ⚙️ **Configure Nodes**
+- Click on a node to open its **configuration panel**.
+- Edit fields like **label, assignee, due date, condition expression, or notification details**.
+- **Save** changes to update the node.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📊 **Manage Workflow Summary**
+- Open the **summary modal** to view all nodes in a table.
+- **Edit node labels and statuses inline**.
+- Use **Undo/Redo** for quick adjustments.
+- Export workflows as **JSON** or import existing workflows.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧪 Running Tests
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run unit tests using **Jest**:
+```bash
+npm test
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Future Enhancements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🔹 **Workflow Execution Engine**: Simulate or execute workflows with a backend engine.  
+🔹 **Real-Time Collaboration**: Enable multiple users to edit the same workflow with **WebSockets**.  
+🔹 **Version Control**: Save and load workflows with version history.  
+🔹 **API Integration**: Trigger external services or webhooks directly from the workflow.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions are **welcome**! To contribute:
+1. **Fork** the repository.
+2. Create a **feature branch**: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m "Add new feature"`
+4. Push the branch: `git push origin feature-name`
+5. Open a **Pull Request**.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📜 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the **MIT License**.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
