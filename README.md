@@ -1,10 +1,25 @@
-# Getting Started with Create React App
+# Workflow Automation Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A drag-and-drop workflow automation tool using React Flow, React Hook Form, and React Table.
 
-## Available Scripts
+## Features
+- Drag and drop node types (Task, Condition, Notification) onto the canvas.
+- Connect nodes visually to define workflow logic.
+- Edit node properties via a form-based configuration panel.
+- View all nodes in a tabular summary with inline editing.
+- Undo/Redo actions for quick modifications.
+- Import/Export workflow JSON files.
 
-In the project directory, you can run:
+## Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/workflow-automation-builder.git
+cd workflow-automation-builder
+
+### `npm install`
+
+Install node dependancy
 
 ### `npm start`
 
