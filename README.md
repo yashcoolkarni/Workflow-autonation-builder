@@ -72,20 +72,3 @@ yarn start
 🔹 **API Integration**: Trigger external services or webhooks directly from the workflow.  
 
 ---
-
-## 🤝 Contributing
-
-Contributions are **welcome**! To contribute:
-1. **Fork** the repository.
-2. Create a **feature branch**: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m "Add new feature"`
-4. Push the branch: `git push origin feature-name`
-5. Open a **Pull Request**.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
